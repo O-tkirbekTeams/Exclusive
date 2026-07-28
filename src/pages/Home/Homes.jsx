@@ -1,10 +1,10 @@
-import Hero from "./Hero/Hero";
+import Hero from "./Hero/Hero.jsx";
 import FlashSale from "./Sections/flashSale.jsx";
 import Browse from "./Sections/Browse.jsx";
 import Products from "./Sections/products.jsx";
 import ExploreProducts from "./Sections/ExploreProducts.jsx";
 import Music from "./Sections/Music.jsx";
-function Home() {
+function Homes() {
   return (
     <>
       <main>
@@ -19,4 +19,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Homes;

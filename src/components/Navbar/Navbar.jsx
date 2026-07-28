@@ -1,4 +1,5 @@
 import { FiHeart, FiSearch, FiShoppingCart } from "react-icons/fi";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -31,15 +32,15 @@ function Navbar() {
             </a>
 
             <nav class="hidden md:flex items-center space-x-12 text-base text-black">
-              <a href="#" class="hover:border-b-2  ">
+              <NavLink to={"/"} class="hover:border-b-2  ">
                 Home
-              </a>
+              </NavLink>
               <a href="#" class="hover:text-gray-600 hover:border-b-2  transition-colors">
                 Contact
               </a>
-              <a href="#" class="hover:text-gray-600 hover:border-b-2  transition-colors">
+              <NavLink to={"/about"} class="hover:text-gray-600 hover:border-b-2  transition-colors">
                 About
-              </a>
+              </NavLink>
               <a href="#" class="hover:text-gray-600 hover:border-b-2  transition-colors">
                 Sign Up
               </a>
