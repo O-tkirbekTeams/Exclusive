@@ -3,6 +3,7 @@ import FlashSale from "./Sections/flashSale.jsx";
 import Browse from "./Sections/Browse.jsx";
 import Products from "./Sections/products.jsx";
 import ExploreProducts from "./Sections/ExploreProducts.jsx";
+import Music from "./Sections/Music.jsx";
 function Home() {
   return (
     <>
@@ -11,6 +12,7 @@ function Home() {
         <FlashSale />
         <Browse />
         <Products />
+        <Music/>
         <ExploreProducts />
       </main>
     </>
