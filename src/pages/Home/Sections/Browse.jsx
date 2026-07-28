@@ -1,17 +1,17 @@
 import { FaChevronCircleLeft } from "react-icons/fa";
 import { FaChevronCircleRight } from "react-icons/fa";
-import Phone from "../../assets/Browse-img/Phone.png";
-import Computers from "../../assets/Browse-img/Computers.png";
-import SmartWatch from "../../assets/Browse-img/SmartWatch.png";
-import Camera from "../../assets/Browse-img/Camera.png";
-import HeadPhones from "../../assets/Browse-img/HeadPhones.png";
-import Gaming from "../../assets/Browse-img/Gaming.png";
+import Phone from "../../../assets/Browse-img/Phone.png";
+import Computers from "../../../assets/Browse-img/Computers.png";
+import SmartWatch from "../../../assets/Browse-img/SmartWatch.png";
+import Camera from "../../../assets/Browse-img/Camera.png";
+import HeadPhones from "../../../assets/Browse-img/HeadPhones.png";
+import Gaming from "../../../assets/Browse-img/Gaming.png";
 
 function Browse() {
   return (
     <div>
       <div className="Browse">
-        <div className="container">
+        <div className="container_1200">
           <div>
             <div className="flex gap-5 items-center mt-[40px]">
               <div className="bg-red-700 w-4 h-8"></div>

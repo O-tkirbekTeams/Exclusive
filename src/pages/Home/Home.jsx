@@ -1,8 +1,8 @@
 import Hero from "./Hero/Hero";
-import FlashSale from "./flashSale.jsx";
-import Browse from "./Browse.jsx";
-import Products from "./products.jsx";
-import ExploreProducts from "./ExploreProducts.jsx";
+import FlashSale from "./Sections/flashSale.jsx";
+import Browse from "./Sections/Browse.jsx";
+import Products from "./Sections/products.jsx";
+import ExploreProducts from "./Sections/ExploreProducts.jsx";
 function Home() {
   return (
     <>

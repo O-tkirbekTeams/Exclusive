@@ -1,7 +1,7 @@
-import kiyim from "../../assets/products-img/kiyim.png";
-import sumka from "../../assets/products-img/sumka.png";
-import kalonka from "../../assets/products-img/kalonka.png";
-import stol from "../../assets/products-img/stol.png";
+import kiyim from "../../../assets/products-img/kiyim.png";
+import sumka from "../../../assets/products-img/sumka.png";
+import kalonka from "../../../assets/products-img/kalonka.png";
+import stol from "../../../assets/products-img/stol.png";
 
 import { FaStar } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
@@ -10,7 +10,7 @@ function Products() {
   return (
     <div>
       <div className="product">
-        <div className="container ">
+        <div className="container_1200">
           <div className="mt-20">
             <div className="flex items-center gap-3">
               <div className="w-3 h-8 bg-red-700"></div>

@@ -3,19 +3,19 @@ import { FaChevronCircleRight } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
 import { FaEye } from "react-icons/fa";
-import c1 from "../../assets/ExploreProducts-img/1.png";
-import c2 from "../../assets/ExploreProducts-img/2.png";
-import c3 from "../../assets/ExploreProducts-img/3.png";
-import c4 from "../../assets/ExploreProducts-img/4.png";
-import B1 from "../../assets/ExploreProducts-img/2_1.png";
-import B2 from "../../assets/ExploreProducts-img/2_2.png";
-import B3 from "../../assets/ExploreProducts-img/2_3.png";
+import c1 from "../../../assets/ExploreProducts-img/1.png";
+import c2 from "../../../assets/ExploreProducts-img/2.png";
+import c3 from "../../../assets/ExploreProducts-img/3.png";
+import c4 from "../../../assets/ExploreProducts-img/4.png";
+import B1 from "../../../assets/ExploreProducts-img/2_1.png";
+import B2 from "../../../assets/ExploreProducts-img/2_2.png";
+import B3 from "../../../assets/ExploreProducts-img/2_3.png";
 
 function ExploreProducts() {
   return (
     <div>
       <div className="ExploreProducts">
-        <div className="container">
+        <div className="container_1200">
           <div className="mt-20">
             <div className="flex items-center gap-3">
               <div className="w-3 h-8 bg-red-700"></div>

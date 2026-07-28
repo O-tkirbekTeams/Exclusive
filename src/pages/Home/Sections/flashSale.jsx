@@ -1,9 +1,9 @@
 import { FaChevronCircleLeft } from "react-icons/fa";
 import { FaChevronCircleRight } from "react-icons/fa";
-import Card_1 from "../../assets/FlashSale-img/card-1.png";
-import Card_2 from "../../assets/FlashSale-img/card-2.png";
-import Card_3 from "../../assets/FlashSale-img/card-3.png";
-import Card_4 from "../../assets/FlashSale-img/card-4.png";
+import Card_1 from "../../../assets/FlashSale-img/card-1.png";
+import Card_2 from "../../../assets/FlashSale-img/card-2.png";
+import Card_3 from "../../../assets/FlashSale-img/card-3.png";
+import Card_4 from "../../../assets/FlashSale-img/card-4.png";
 
 import { FaStar } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
@@ -13,7 +13,7 @@ function FlashSale() {
   return (
     <div>
       <div className="flashSale ">
-        <div className="container">
+        <div className="container_1200">
           <hr className="mt-10 text-gray-400" />
 
           <div className="flex gap-5 items-center mt-5">
