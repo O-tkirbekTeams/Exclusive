@@ -6,7 +6,7 @@ export default function Hero() {
     <div className="container_1200 px-4 pt-10 font-sans">
       <div className="flex flex-col md:flex-row gap-11">
         
-        <aside className="w-full md:w-52  border-r border-gray-300 pr-4">
+        <aside className="w-full md:w-52  border-r  border-gray-300 pr-4">
           <ul className="space-y-4 text-black text-base">
             <li className="flex items-center justify-between cursor-pointer hover:opacity-70">
               <span>Woman's Fashion</span>
@@ -65,4 +65,4 @@ export default function Hero() {
       </div>
     </div>
   );
-}
+}3

@@ -1,7 +1,12 @@
+import Login from "./Login/Logins"
 
 function Sign() {
   return (
-    <div>Sign</div>
+    <>
+    <main>
+      <Login/>
+    </main>
+    </>
   )
 }
 
