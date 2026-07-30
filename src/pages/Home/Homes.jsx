@@ -4,6 +4,8 @@ import Browse from "./Sections/Browse.jsx";
 import Products from "./Sections/products.jsx";
 import ExploreProducts from "./Sections/ExploreProducts.jsx";
 import Music from "./Sections/Music.jsx";
+import Arrival from "./Sections/Arrival.jsx";
+import Comfort from "./Sections/Comfort.jsx";
 function Homes() {
   return (
     <>
@@ -12,8 +14,10 @@ function Homes() {
         <FlashSale />
         <Browse />
         <Products />
-        <Music/>
+        <Music />
         <ExploreProducts />
+        <Arrival />
+        <Comfort />
       </main>
     </>
   );
