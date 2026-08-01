@@ -32,7 +32,7 @@ function SignIns() {
             />
 
             <div className="flex items-center justify-between pt-2">
-              <Link to={"/login"}
+              <Link to={"/signUp"}
                 type="submit"
                 className="bg-[#DB4444] hover:bg-[#c33838] text-white text-sm font-medium py-3.5 px-10 rounded transition-colors cursor-pointer"
               >

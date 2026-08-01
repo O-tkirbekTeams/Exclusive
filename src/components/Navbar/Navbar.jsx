@@ -41,7 +41,7 @@ function Navbar() {
               <NavLink to={"/about"} className="hover:text-gray-600 hover:border-b-2  transition-colors">
                 About
               </NavLink>
-              <NavLink to={"/sign_up"} className="hover:text-gray-600 hover:border-b-2  transition-colors">
+              <NavLink to={"/signUp"} className="hover:text-gray-600 hover:border-b-2  transition-colors">
                 Sign Up
               </NavLink>
             </nav>
@@ -55,12 +55,12 @@ function Navbar() {
                 />
                 <FiSearch />
               </div>
-              <div classNameName="cursor-pointer">
+              <Link to={"/Like"} className="cursor-pointer">
                 <FiHeart />
-              </div>
-              <div classNameName="cursor-pointer">
+              </Link>
+              <Link to={"/Cart"} className="cursor-pointer">
                 <FiShoppingCart />
-              </div>
+              </Link>
             </div>
           </div>
         </div>
