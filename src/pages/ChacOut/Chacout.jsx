@@ -1,7 +1,5 @@
 function Chacout() {
-  return (
-    <>
-  )
+  return <></>;
 }
 
-export default Chacout
+export default Chacout;
