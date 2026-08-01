@@ -1,3 +1,4 @@
+import { FaRegCircleUser } from "react-icons/fa6";
 import { FiHeart, FiSearch, FiShoppingCart } from "react-icons/fi";
 import { Link, NavLink } from "react-router-dom";
 
@@ -12,7 +13,10 @@ function Navbar() {
                 Summer Sale For All Swim Suits And Free Express Delivery - OFF
                 50%!
               </span>
-              <a href="#" className="font-semibold underline ml-2 hover:opacity-80">
+              <a
+                href="#"
+                className="font-semibold underline ml-2 hover:opacity-80"
+              >
                 ShopNow
               </a>
             </div>
@@ -27,7 +31,10 @@ function Navbar() {
 
         <div className="border-b border-gray-300">
           <div className="container_1200 px-4 sm:px-12 pt-10 pb-4 flex items-center justify-between gap-4">
-            <Link to={"/"} className="text-2xl font-bold tracking-wide text-black">
+            <Link
+              to={"/"}
+              className="text-2xl font-bold tracking-wide text-black"
+            >
               Exclusive
             </Link>
 
@@ -35,13 +42,22 @@ function Navbar() {
               <NavLink to={"/"} className="hover:border-b-2">
                 Home
               </NavLink>
-              <NavLink to={"/contact"} className="hover:text-gray-600 hover:border-b-2  transition-colors">
+              <NavLink
+                to={"/contact"}
+                className="hover:text-gray-600 hover:border-b-2  transition-colors"
+              >
                 Contact
               </NavLink>
-              <NavLink to={"/about"} className="hover:text-gray-600 hover:border-b-2  transition-colors">
+              <NavLink
+                to={"/about"}
+                className="hover:text-gray-600 hover:border-b-2  transition-colors"
+              >
                 About
               </NavLink>
-              <NavLink to={"/signUp"} className="hover:text-gray-600 hover:border-b-2  transition-colors">
+              <NavLink
+                to={"/signUp"}
+                className="hover:text-gray-600 hover:border-b-2  transition-colors"
+              >
                 Sign Up
               </NavLink>
             </nav>
@@ -61,6 +77,9 @@ function Navbar() {
               <Link to={"/Cart"} className="cursor-pointer">
                 <FiShoppingCart />
               </Link>
+              <div className="cursor-pointer bg-[#DB4444] p-1.5 rounded-2xl text-white ">
+                <FaRegCircleUser />
+              </div>
             </div>
           </div>
         </div>
