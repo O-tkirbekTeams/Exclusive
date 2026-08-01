@@ -8,7 +8,7 @@ function Login() {
           <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-24">
             <div className="bg-[#C9E3E8]">
               <img
-                src="/imgs/cart.png"
+                src="/public/imgs/cart.png"
                 alt=""
                 className="w-full h-[560px] object-contain"
               />
