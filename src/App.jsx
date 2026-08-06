@@ -12,6 +12,7 @@ import Like from "./pages/WishList/Like/Like";
 import MyAccaunt from "./pages/MyAccaunt/MyAccaunt";
 import Detail from "./pages/Productsdetails/Detail";
 import Chacout from "./pages/ChacOut/Chacout";
+import Error from "./pages/Error/Errors";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/Account" element={<MyAccaunt />} />
           <Route path="/Detail" element={<Detail />} />
           <Route path="/checkout" element={<Chacout />} />
+          <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
       </BrowserRouter>
