@@ -88,16 +88,16 @@ export default function Footer() {
             </div>
 
             <div className="flex gap-6 pt-3 text-white">
-              <a href="#" class="hover:text-gray-400" aria-label="Facebook">
+              <a href="#" className="hover:text-gray-400" aria-label="Facebook">
                 <RiFacebookLine className="w-6 h-6" />
               </a>
-              <a href="#" class="hover:text-gray-400" aria-label="Twitter">
+              <a href="#" className="hover:text-gray-400" aria-label="Twitter">
                 <RiTwitterLine className="w-6 h-6" />
               </a>
-              <a href="#" class="hover:text-gray-400" aria-label="Instagram">
+              <a href="#" className="hover:text-gray-400" aria-label="Instagram">
                 <RiInstagramLine className="w-6 h-6" />
               </a>
-              <a href="#" class="hover:text-gray-400" aria-label="LinkedIn">
+              <a href="#" className="hover:text-gray-400" aria-label="LinkedIn">
                 <RiLinkedinLine className="w-6 h-6" />
               </a>
             </div>

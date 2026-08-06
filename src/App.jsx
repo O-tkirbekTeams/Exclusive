@@ -10,6 +10,7 @@ import Login from "./pages/Home/SignUp/Login/Logins";
 import Carts from "./pages/Cart/CartPro/Carts";
 import Like from "./pages/WishList/Like/Like";
 import MyAccaunt from "./pages/MyAccaunt/MyAccaunt";
+import Detail from "./pages/Productsdetails/Detail";
 
 function App() {
   return (
@@ -24,8 +25,9 @@ function App() {
           <Route path="/signUp" element={<Login/>} />
           <Route path="/Cart" element={<Carts/>} />
           <Route path="/Like" element={<Like/>} />
-
           <Route path="/Account" element={<MyAccaunt/>} />
+          <Route path="/Detail" element={<Detail/>} />
+
         </Routes>
         <Footer />
       </BrowserRouter>

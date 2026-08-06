@@ -1,24 +1,34 @@
-import { FaRegCircleUser } from "react-icons/fa6";
-import { FiHeart, FiSearch, FiShoppingCart } from "react-icons/fi";
+import { useState } from "react";
+import {
+  FiHeart,
+  FiSearch,
+  FiShoppingCart,
+  FiUser,
+  FiShoppingBag,
+  FiXCircle,
+  FiStar,
+  FiLogOut,
+} from "react-icons/fi";
 import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <>
       <header className="w-full font-sans">
         <div className="bg-black text-white text-xs py-3 px-4 sm:px-12">
-          <div className="max-w-7xl mx-auto flex items-center justify-between">
+          <div className="container_1200 flex items-center justify-between">
             <div className="flex-1 text-center pl-16 sm:pl-24">
               <span>
                 Summer Sale For All Swim Suits And Free Express Delivery - OFF
                 50%!
               </span>
-              <a
-                href="#"
+              <Link to={"/Detail"}
                 className="font-semibold underline ml-2 hover:opacity-80"
               >
                 ShopNow
-              </a>
+              </Link>
             </div>
             <div className="flex items-center gap-1 cursor-pointer">
               <span>English</span>
@@ -77,8 +87,60 @@ function Navbar() {
               <Link to={"/Cart"} className="cursor-pointer">
                 <FiShoppingCart />
               </Link>
-              <div className="cursor-pointer bg-[#DB4444] p-1.5 rounded-2xl text-white ">
-                <FaRegCircleUser />
+              <div className="relative">
+                <button
+                  onClick={() => setIsOpen(!isOpen)}
+                  className="cursor-pointer bg-[#DB4444] p-1.5 rounded-full text-white text-[20px]"
+                >
+                  <FiUser />
+                </button>
+
+                {isOpen && (
+                  <>
+                    <div
+                      className="fixed inset-0 z-40"
+                      onClick={() => setIsOpen(false)}
+                    />
+
+                    <div className="absolute right-1 top-10 z-50">
+                      <div className="w-72 rounded bg-[#69606A] from-[#B9B4BC] to-[#221A29] py-6 px-7 shadow-2xl">
+                        <div className="flex flex-col gap-6">
+                          <Link
+                            to="/Account"
+                            className="flex items-center gap-4 text-white text-[20px] cursor-pointer"
+                          >
+                            <FiUser className="text-[28px]" />
+                            <span>Manage My Account</span>
+                          </Link>
+
+                          <div
+                            className="flex items-center gap-4 text-white text-[20px] cursor-pointer"
+                          >
+                            <FiShoppingBag className="text-[28px]" />
+                            <span>My Order</span>
+                          </div>
+
+                          <div className="flex items-center gap-4 text-white text-[20px] cursor-pointer" 
+                          >
+                            <FiXCircle className="text-[28px]" />
+                            <span>My Cancellations</span>
+                          </div>
+
+                          <div className="flex items-center gap-4 text-white text-[20px] cursor-pointer"
+                          >
+                            <FiStar className="text-[28px]" />
+                            <span>My Reviews</span>
+                          </div>
+
+                          <button className="flex items-center gap-4 text-white text-[20px] text-left cursor-pointer">
+                            <FiLogOut className="text-[28px]" />
+                            <span>Logout</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </>
+                )}
               </div>
             </div>
           </div>
