@@ -1,5 +1,5 @@
 function MyAccaunt() {
-  return <></>;
+  return <div>MyAccaunt</div>;
 }
 
 export default MyAccaunt;

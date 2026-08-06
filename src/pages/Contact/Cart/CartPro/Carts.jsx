@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Carts() {
   return (
     <>
@@ -101,9 +103,12 @@ function Carts() {
             </div>
 
             <div className="text-center">
-              <button className="px-12 py-4 bg-[#DB4444] text-white rounded text-sm font-medium hover:bg-red-600 transition cursor-pointer">
+              <Link
+                to={"/checout"}
+                className="px-12 py-4 bg-[#DB4444] text-white rounded text-sm font-medium hover:bg-red-600 transition cursor-pointer"
+              >
                 Procees to checkout
-              </button>
+              </Link>
             </div>
           </div>
         </div>
