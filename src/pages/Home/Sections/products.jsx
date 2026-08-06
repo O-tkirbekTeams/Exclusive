@@ -6,6 +6,9 @@ import stol from "../../../assets/products-img/stol.png";
 import { FaStar } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
 import { FaEye } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import { Button } from "@mui/material";
+import { PiShoppingCartLight } from "react-icons/pi";
 function Products() {
   return (
     <div>
@@ -45,6 +48,19 @@ function Products() {
                     <span className="text-gray-600 ">(88)</span>
                   </h1>
                 </div>
+                                <Link to={"/Detail"} >
+                                  <Button
+                                    variant="contained"
+                                    sx={{
+                                      background: "black",
+                                      width: "100%",
+                                      marginTop: "12px",
+                                    }}
+                                  >
+                                    <PiShoppingCartLight size={20} className="mr-2" />
+                                    Add To Cart
+                                  </Button>
+                                </Link>
               </div>
               <div className="">
                 <div className="bg-blue-50 relative w-[270px] h-[245px] ">
@@ -68,6 +84,19 @@ function Products() {
                     <span className="text-gray-600 ">(88)</span>
                   </h1>
                 </div>
+                                <Link to={"/Detail"} >
+                                  <Button
+                                    variant="contained"
+                                    sx={{
+                                      background: "black",
+                                      width: "100%",
+                                      marginTop: "12px",
+                                    }}
+                                  >
+                                    <PiShoppingCartLight size={20} className="mr-2" />
+                                    Add To Cart
+                                  </Button>
+                                </Link>
               </div>
               <div className="">
                 <div className="bg-blue-50 relative w-[270px] h-[245px]">
@@ -95,6 +124,19 @@ function Products() {
                     <span className="text-gray-600 ">(88)</span>
                   </h1>
                 </div>
+                                <Link to={"/Detail"} >
+                                  <Button
+                                    variant="contained"
+                                    sx={{
+                                      background: "black",
+                                      width: "100%",
+                                      marginTop: "12px",
+                                    }}
+                                  >
+                                    <PiShoppingCartLight size={20} className="mr-2" />
+                                    Add To Cart
+                                  </Button>
+                                </Link>
               </div>
 
               <div className="">
@@ -119,6 +161,19 @@ function Products() {
                     <span className="text-gray-600 ">(88)</span>
                   </h1>
                 </div>
+                                <Link to={"/Detail"} >
+                                  <Button
+                                    variant="contained"
+                                    sx={{
+                                      background: "black",
+                                      width: "100%",
+                                      marginTop: "12px",
+                                    }}
+                                  >
+                                    <PiShoppingCartLight size={20} className="mr-2" />
+                                    Add To Cart
+                                  </Button>
+                                </Link>
               </div>
             </div>
           </div>

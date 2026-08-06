@@ -14,6 +14,7 @@ import { FaStar } from "react-icons/fa";
 
 import { MdDelete } from "react-icons/md";
 import { PiShoppingCartLight } from "react-icons/pi";
+import { Link } from "react-router-dom";
 
 function Like() {
   return (
@@ -55,13 +56,19 @@ function Like() {
                   </div>
                 </div>
 
-                <Button
-                  variant="contained"
-                  sx={{ background: "black", width: "100%", marginTop: "12px" }}
-                >
-                  <PiShoppingCartLight size={20} className="mr-2" />
-                  Add To Cart
-                </Button>
+                <Link to={"/Detail"} >
+                  <Button
+                    variant="contained"
+                    sx={{
+                      background: "black",
+                      width: "100%",
+                      marginTop: "12px",
+                    }}
+                  >
+                    <PiShoppingCartLight size={20} className="mr-2" />
+                    Add To Cart
+                  </Button>
+                </Link>
               </div>
 
               <div className="bg-[#F5F5F5] w-[270px] rounded-[8px] relative">
@@ -87,13 +94,19 @@ function Like() {
                   <span className="text-red-600 text-base">$1960</span>
                 </div>
 
-                <Button
-                  variant="contained"
-                  sx={{ background: "black", width: "100%", marginTop: "12px" }}
-                >
-                  <PiShoppingCartLight size={20} className="mr-2" />
-                  Add To Cart
-                </Button>
+                <Link to={"/Detail"} >
+                  <Button
+                    variant="contained"
+                    sx={{
+                      background: "black",
+                      width: "100%",
+                      marginTop: "12px",
+                    }}
+                  >
+                    <PiShoppingCartLight size={20} className="mr-2" />
+                    Add To Cart
+                  </Button>
+                </Link>
               </div>
               <div className="bg-[#F5F5F5] w-[270px] rounded-[8px] relative">
                 <div className="flex justify-between items-center m-3">
@@ -118,13 +131,19 @@ function Like() {
                   <span className="text-red-600 text-base">$1960</span>
                 </div>
 
-                <Button
-                  variant="contained"
-                  sx={{ background: "black", width: "100%", marginTop: "12px" }}
-                >
-                  <PiShoppingCartLight size={20} className="mr-2" />
-                  Add To Cart
-                </Button>
+                <Link to={"/Detail"} >
+                  <Button
+                    variant="contained"
+                    sx={{
+                      background: "black",
+                      width: "100%",
+                      marginTop: "12px",
+                    }}
+                  >
+                    <PiShoppingCartLight size={20} className="mr-2" />
+                    Add To Cart
+                  </Button>
+                </Link>
               </div>
               <div className="bg-[#F5F5F5] w-[270px] rounded-[8px] relative">
                 <div className="flex justify-between items-center m-3">
@@ -148,14 +167,19 @@ function Like() {
                   </h3>
                   <span className="text-red-600 text-base">$1960</span>
                 </div>
-
-                <Button
-                  variant="contained"
-                  sx={{ background: "black", width: "100%", marginTop: "12px" }}
-                >
-                  <PiShoppingCartLight size={20} className="mr-2" />
-                  Add To Cart
-                </Button>
+                <Link to={"/Detail"} >
+                  <Button
+                    variant="contained"
+                    sx={{
+                      background: "black",
+                      width: "100%",
+                      marginTop: "12px",
+                    }}
+                  >
+                    <PiShoppingCartLight size={20} className="mr-2" />
+                    Add To Cart
+                  </Button>
+                </Link>
               </div>
             </div>
 
@@ -218,6 +242,7 @@ function Like() {
                     </div>
                   </div>
 
+                <Link to={"/Detail"} >
                   <Button
                     variant="contained"
                     sx={{
@@ -229,6 +254,7 @@ function Like() {
                     <PiShoppingCartLight size={20} className="mr-2" />
                     Add To Cart
                   </Button>
+                </Link>
                 </div>
                 <div className="bg-[#F5F5F5] w-[270px] rounded-[8px] relative">
                   <div className="flex justify-end m-3 ">
@@ -269,6 +295,7 @@ function Like() {
                     </div>
                   </div>
 
+                <Link to={"/Detail"} >
                   <Button
                     variant="contained"
                     sx={{
@@ -280,6 +307,7 @@ function Like() {
                     <PiShoppingCartLight size={20} className="mr-2" />
                     Add To Cart
                   </Button>
+                </Link>
                 </div>{" "}
                 <div className="bg-[#F5F5F5] w-[270px] rounded-[8px] relative">
                   <div className="flex justify-between items-center m-3">
@@ -323,6 +351,7 @@ function Like() {
                     </div>
                   </div>
 
+                <Link to={"/Detail"} >
                   <Button
                     variant="contained"
                     sx={{
@@ -334,6 +363,7 @@ function Like() {
                     <PiShoppingCartLight size={20} className="mr-2" />
                     Add To Cart
                   </Button>
+                </Link>
                 </div>
                 <div className="bg-[#F5F5F5] w-[270px] rounded-[8px] relative">
                   <div className="flex justify-end items-center m-3">
@@ -374,6 +404,7 @@ function Like() {
                     </div>
                   </div>
 
+                <Link to={"/Detail"} >
                   <Button
                     variant="contained"
                     sx={{
@@ -385,6 +416,7 @@ function Like() {
                     <PiShoppingCartLight size={20} className="mr-2" />
                     Add To Cart
                   </Button>
+                </Link>
                 </div>
               </div>
             </div>

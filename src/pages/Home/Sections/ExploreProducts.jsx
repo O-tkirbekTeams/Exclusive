@@ -10,6 +10,9 @@ import c4 from "../../../assets/ExploreProducts-img/4.png";
 import B1 from "../../../assets/ExploreProducts-img/2_1.png";
 import B2 from "../../../assets/ExploreProducts-img/2_2.png";
 import B3 from "../../../assets/ExploreProducts-img/2_3.png";
+import { Link } from "react-router-dom";
+import { Button } from "@mui/material";
+import { PiShoppingCartLight } from "react-icons/pi";
 
 function ExploreProducts() {
   return (
@@ -51,6 +54,19 @@ function ExploreProducts() {
                     <span className="text-gray-600 ">(88)</span>
                   </h1>
                 </div>
+                <Link to={"/Detail"}>
+                  <Button
+                    variant="contained"
+                    sx={{
+                      background: "black",
+                      width: "100%",
+                      marginTop: "12px",
+                    }}
+                  >
+                    <PiShoppingCartLight size={20} className="mr-2" />
+                    Add To Cart
+                  </Button>
+                </Link>
               </div>
               <div className="">
                 <div className="bg-blue-50 relative w-[270px] h-[245px] ">
@@ -73,6 +89,19 @@ function ExploreProducts() {
                     <span className="text-gray-600 ">(88)</span>
                   </h1>
                 </div>
+                <Link to={"/Detail"}>
+                  <Button
+                    variant="contained"
+                    sx={{
+                      background: "black",
+                      width: "100%",
+                      marginTop: "12px",
+                    }}
+                  >
+                    <PiShoppingCartLight size={20} className="mr-2" />
+                    Add To Cart
+                  </Button>
+                </Link>
               </div>
               <div className="">
                 <div className="bg-blue-50 relative w-[270px] h-[245px]">
@@ -94,6 +123,19 @@ function ExploreProducts() {
                     <span className="text-gray-600 ">(88)</span>
                   </h1>
                 </div>
+                <Link to={"/Detail"}>
+                  <Button
+                    variant="contained"
+                    sx={{
+                      background: "black",
+                      width: "100%",
+                      marginTop: "12px",
+                    }}
+                  >
+                    <PiShoppingCartLight size={20} className="mr-2" />
+                    Add To Cart
+                  </Button>
+                </Link>
               </div>
 
               <div className="">
@@ -116,6 +158,19 @@ function ExploreProducts() {
                     <span className="text-gray-600 ">(88)</span>
                   </h1>
                 </div>
+                                <Link to={"/Detail"} >
+                                  <Button
+                                    variant="contained"
+                                    sx={{
+                                      background: "black",
+                                      width: "100%",
+                                      marginTop: "12px",
+                                    }}
+                                  >
+                                    <PiShoppingCartLight size={20} className="mr-2" />
+                                    Add To Cart
+                                  </Button>
+                                </Link>
               </div>
             </div>
             {/* cardlar-2 */}
@@ -144,10 +199,24 @@ function ExploreProducts() {
                     <span className="text-gray-600 ">(88)</span>
                   </h1>
                 </div>
+                
                 <div className="flex gap-2 mt-2">
                   <div className="bg-red-700 w-5 h-5 border-2  rounded-2xl"></div>
                   <div className="bg-black w-5 h-5 rounded-2xl"></div>
                 </div>
+                                <Link to={"/Detail"} >
+                                  <Button
+                                    variant="contained"
+                                    sx={{
+                                      background: "black",
+                                      width: "100%",
+                                      marginTop: "12px",
+                                    }}
+                                  >
+                                    <PiShoppingCartLight size={20} className="mr-2" />
+                                    Add To Cart
+                                  </Button>
+                                </Link>
               </div>
               <div className="">
                 <div className="bg-blue-50 relative w-[270px] h-[245px] ">
@@ -174,6 +243,19 @@ function ExploreProducts() {
                   <div className="bg-green-700 w-5 h-5 border-2  rounded-2xl"></div>
                   <div className="bg-yellow-700 w-5 h-5 rounded-2xl"></div>
                 </div>
+                                <Link to={"/Detail"} >
+                                  <Button
+                                    variant="contained"
+                                    sx={{
+                                      background: "black",
+                                      width: "100%",
+                                      marginTop: "12px",
+                                    }}
+                                  >
+                                    <PiShoppingCartLight size={20} className="mr-2" />
+                                    Add To Cart
+                                  </Button>
+                                </Link>
               </div>
               <div className="">
                 <div className="bg-blue-50 relative w-[270px] h-[245px]">
@@ -202,6 +284,19 @@ function ExploreProducts() {
                   <div className="bg-blue-700 w-5 h-5 border-2  rounded-2xl"></div>
                   <div className="bg-red-700 w-5 h-5 rounded-2xl"></div>
                 </div>
+                                <Link to={"/Detail"} >
+                                  <Button
+                                    variant="contained"
+                                    sx={{
+                                      background: "black",
+                                      width: "100%",
+                                      marginTop: "12px",
+                                    }}
+                                  >
+                                    <PiShoppingCartLight size={20} className="mr-2" />
+                                    Add To Cart
+                                  </Button>
+                                </Link>
               </div>
 
               <div className="">
@@ -228,6 +323,19 @@ function ExploreProducts() {
                   <div className="bg-blue-700 w-5 h-5 border-2  rounded-2xl"></div>
                   <div className="bg-black w-5 h-5 rounded-2xl"></div>
                 </div>
+                                <Link to={"/Detail"} >
+                                  <Button
+                                    variant="contained"
+                                    sx={{
+                                      background: "black",
+                                      width: "100%",
+                                      marginTop: "12px",
+                                    }}
+                                  >
+                                    <PiShoppingCartLight size={20} className="mr-2" />
+                                    Add To Cart
+                                  </Button>
+                                </Link>
               </div>
             </div>
             {/* card-2 yopildi */}

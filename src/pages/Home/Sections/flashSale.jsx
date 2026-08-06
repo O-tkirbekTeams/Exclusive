@@ -8,6 +8,9 @@ import Card_4 from "../../../assets/FlashSale-img/card-4.png";
 import { FaStar } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
 import { FaEye } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import { Button } from "@mui/material";
+import { PiShoppingCartLight } from "react-icons/pi";
 
 function FlashSale() {
   return (
@@ -74,6 +77,19 @@ function FlashSale() {
                   <span className="text-gray-600 ">(88)</span>
                 </h1>
               </div>
+                              <Link to={"/Detail"} >
+                                <Button
+                                  variant="contained"
+                                  sx={{
+                                    background: "black",
+                                    width: "100%",
+                                    marginTop: "12px",
+                                  }}
+                                >
+                                  <PiShoppingCartLight size={20} className="mr-2" />
+                                  Add To Cart
+                                </Button>
+                              </Link>
             </div>
             <div className="">
               <div className="bg-blue-50 relative w-[270px] h-[245px] ">
@@ -90,6 +106,7 @@ function FlashSale() {
                   alt=""
                   className="py-12 px-12 pt-16 size-[230px] w-[400px] "
                 />
+                
               </div>
               <div className="mt-5">
                 <h2 className="text-xl">AK-900 Wired Keyboard</h2>
@@ -104,6 +121,19 @@ function FlashSale() {
                   <span className="text-gray-600 ">(88)</span>
                 </h1>
               </div>
+                              <Link to={"/Detail"} >
+                                <Button
+                                  variant="contained"
+                                  sx={{
+                                    background: "black",
+                                    width: "100%",
+                                    marginTop: "12px",
+                                  }}
+                                >
+                                  <PiShoppingCartLight size={20} className="mr-2" />
+                                  Add To Cart
+                                </Button>
+                              </Link>
             </div>
             <div className="">
               <div className="bg-blue-50 relative w-[270px] h-[245px]">
@@ -130,6 +160,19 @@ function FlashSale() {
                   <span className="text-gray-600 ">(88)</span>
                 </h1>
               </div>
+                              <Link to={"/Detail"} >
+                                <Button
+                                  variant="contained"
+                                  sx={{
+                                    background: "black",
+                                    width: "100%",
+                                    marginTop: "12px",
+                                  }}
+                                >
+                                  <PiShoppingCartLight size={20} className="mr-2" />
+                                  Add To Cart
+                                </Button>
+                              </Link>
             </div>
 
             <div className="">
@@ -157,6 +200,19 @@ function FlashSale() {
                   <span className="text-gray-600 ">(88)</span>
                 </h1>
               </div>
+                              <Link to={"/Detail"} >
+                                <Button
+                                  variant="contained"
+                                  sx={{
+                                    background: "black",
+                                    width: "100%",
+                                    marginTop: "12px",
+                                  }}
+                                >
+                                  <PiShoppingCartLight size={20} className="mr-2" />
+                                  Add To Cart
+                                </Button>
+                              </Link>
             </div>
           </div>
           <div className="flex justify-center mt-22">
